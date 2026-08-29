@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling Point | The Ultimate SaaS Travel Experience</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+    <!-- Loader -->
+    <div id="preloader">
+        <div class="loader-icon"><i class="fa-solid fa-plane"></i></div>
+        <p>Preparing your journey...</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-paper-plane logo-icon"></i> 
+            <span class="logo-text">Traveling<span>Point</span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#experts">Experts</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="mobile-menu-btn" id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <span class="badge-pill">✨ #1 Premium Travel Platform</span>
+            <h1 class="gradient-text">Explore The World <br>Like Never Before</h1>
+            <p>Ultra-modern journeys, cutting-edge booking, and handpicked luxury experiences tailored for the modern explorer.</p>
+            
+            <div class="search-box glass">
+                <div class="input-group">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Where to?">
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <input type="date">
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-user-group"></i>
+                    <select>
+                        <option>Adventure</option>
+                        <option>Luxury</option>
+                        <option>Budget</option>
+                    </select>
+                </div>
+                <button class="btn-primary glow-btn">Find Now <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            
+            <div class="floating-badge b1"><i class="fa-solid fa-trophy"></i> Top Rated</div>
+            <div class="floating-badge b2"><i class="fa-solid fa-headset"></i> 24/7 Support</div>
+            <div class="floating-badge b3"><i class="fa-solid fa-shield-halved"></i> Secure</div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-by reveal">
+        <h5>Trusted by leading companies</h5>
+        <div class="logos">
+            <span>TechTravel</span>
+            <span>AirLineX</span>
+            <span>GlobalStay</span>
+            <span>HotelPro</span>
+            <span>Voyager</span>
+        </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="impact-stats reveal">
+        <div class="stat-box">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <h2 class="counter" data-target="1200">0</h2>
+            <p>Destinations</p>
+        </div>
+        <div class="stat-box">
+            <i class="fa-solid fa-face-smile"></i>
+            <h2 class="counter" data-target="50000">0</h2>
+            <p>Happy Travelers</p>
+        </div>
+        <div class="stat-box">
+            <i class="fa-solid fa-award"></i>
+            <h2 class="counter" data-target="15">0</h2>
+            <p>Years Experience</p>
+        </div>
+        <div class="stat-box">
+            <i class="fa-solid fa-star"></i>
+            <h2 class="counter" data-target="98">0</h2>
+            <p>% Satisfaction</p>
+        </div>
+    </section>
+
+    <!-- Premium Features Section -->
+    <section id="features" class="section-container reveal">
+        <div class="section-header">
+            <span class="subtitle">WHY CHOOSE US</span>
+            <h2 class="section-title">The Ultimate SaaS Experience</h2>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card glass-card hover-lift">
+                <div class="icon-box"><i class="fa-solid fa-hotel"></i></div>
+                <h3>Handpicked Hotels</h3>
+                <p>Immerse yourself in our collection of luxury resorts and boutique stays, all personally vetted by our team.</p>
+                <span class="card-number">01</span>
+            </div>
+            <div class="feature-card glass-card hover-lift">
+                <div class="icon-box"><i class="fa-solid fa-earth-americas"></i></div>
+                <h3>Global Expertise</h3>
+                <p>Benefit from our extensive knowledge and network of seasoned travelers and local experts.</p>
+                <span class="card-number">02</span>
+            </div>
+            <div class="feature-card glass-card hover-lift">
+                <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Flexible Options</h3>
+                <p>Our commitment to sustainable practices, ethical tourism, and 100% flexible booking policies.</p>
+                <span class="card-number">03</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations Section -->
+    <section id="destinations" class="section-container reveal">
+        <div class="section-header">
+            <span class="subtitle">POPULAR PLACES</span>
+            <h2 class="section-title">Choose Your Destination</h2>
+        </div>
+        
+        <div class="destination-grid">
+            <div class="dest-card large-card">
+                <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=1200&auto=format&fit=crop" alt="Maldives">
+                <div class="overlay">
+                    <h3>Maldives</h3>
+                    <p>2,000+ Tours</p>
+                    <button class="btn-dark">Explore <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="dest-card tall-card">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop" alt="Mountains">
+                <div class="overlay">
+                    <h3>Swiss Alps</h3>
+                    <p>500+ Tours</p>
+                </div>
+            </div>
+            <div class="dest-card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=600&auto=format&fit=crop" alt="Island">
+                <div class="overlay">
+                    <h3>Bali</h3>
+                    <p>1,200+ Tours</p>
+                </div>
+            </div>
+            <div class="dest-card wide-card">
+                <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1000&auto=format&fit=crop" alt="City">
+                <div class="overlay">
+                    <h3>New York</h3>
+                    <p>800+ Tours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Experts Section -->
+    <section id="experts" class="section-container reveal dark-bg-section">
+        <div class="section-header">
+            <span class="subtitle">MEET THE TEAM</span>
+            <h2 class="section-title">Our Top Experts</h2>
+        </div>
+        <div class="experts-grid">
+            <div class="expert-card">
+                <div class="expert-img">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&auto=format&fit=crop" alt="John Doe">
+                    <div class="social-links">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+                <h4>John Doe</h4>
+                <p>Adventure Specialist</p>
+            </div>
+            <div class="expert-card">
+                <div class="expert-img">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop" alt="Jane Smith">
+                    <div class="social-links">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+                <h4>Jane Smith</h4>
+                <p>Luxury Curator</p>
+            </div>
+            <div class="expert-card">
+                <div class="expert-img">
+                    <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=600&auto=format&fit=crop" alt="Alex Chen">
+                    <div class="social-links">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+                <h4>Alex Chen</h4>
+                <p>Cultural Explorer</p>
+            </div>
+            <div class="expert-card">
+                <div class="expert-img">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop" alt="Maria Garcia">
+                    <div class="social-links">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+                <h4>Maria Garcia</h4>
+                <p>Budget Travel Guru</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works / Process -->
+    <section class="section-container reveal">
+        <div class="section-header">
+            <span class="subtitle">SIMPLE PROCESS</span>
+            <h2 class="section-title">How it's Works</h2>
+        </div>
+        <div class="process-grid">
+            <div class="process-step">
+                <span class="step-num">01</span>
+                <i class="fa-solid fa-magnifying-glass-location"></i>
+                <h3>Discover</h3>
+                <p>Browse our curated collections and find your dream destination.</p>
+            </div>
+            <div class="process-line"></div>
+            <div class="process-step">
+                <span class="step-num">02</span>
+                <i class="fa-solid fa-calendar-check"></i>
+                <h3>Book Online</h3>
+                <p>Secure your spot with our ultra-secure and instant booking engine.</p>
+            </div>
+            <div class="process-line"></div>
+            <div class="process-step">
+                <span class="step-num">03</span>
+                <i class="fa-solid fa-plane-departure"></i>
+                <h3>Enjoy Your Trip</h3>
+                <p>Unforgettable memories are just a few clicks away.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Plans -->
+    <section id="pricing" class="section-container reveal">
+        <div class="section-header">
+            <span class="subtitle">PRICING</span>
+            <h2 class="section-title">Choose Your Plan</h2>
+        </div>
+        
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Basic</h3>
+                <p class="price">$49<span>/mo</span></p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Standard Tours</li>
+                    <li><i class="fa-solid fa-check"></i> Email Support</li>
+                    <li class="disabled"><i class="fa-solid fa-xmark"></i> 24/7 Support</li>
+                    <li class="disabled"><i class="fa-solid fa-xmark"></i> Personal Guide</li>
+                </ul>
+                <button class="btn-outline">Get Started</button>
+            </div>
+            
+            <div class="price-card featured-plan">
+                <span class="popular-badge">Most Popular</span>
+                <h3>Pro</h3>
+                <p class="price">$99<span>/mo</span></p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Luxury Tours</li>
+                    <li><i class="fa-solid fa-check"></i> 24/7 Support</li>
+                    <li><i class="fa-solid fa-check"></i> Expert Guidance</li>
+                    <li><i class="fa-solid fa-check"></i> VIP Lounge Access</li>
+                </ul>
+                <button class="btn-primary glow-btn">Get Started</button>
+            </div>
+            
+            <div class="price-card">
+                <h3>Enterprise</h3>
+                <p class="price">$299<span>/mo</span></p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Custom Packages</li>
+                    <li><i class="fa-solid fa-check"></i> Dedicated Manager</li>
+                    <li><i class="fa-solid fa-check"></i> Unlimited Customization</li>
+                </ul>
+                <button class="btn-outline">Contact Sales</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-container reveal">
+        <div class="section-header">
+            <span class="subtitle">TESTIMONIALS</span>
+            <h2 class="section-title">Client Testimonials</h2>
+        </div>
+        
+        <div class="testimonial-slider">
+            <div class="testimonial-card glass-card">
+                <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                <p>"The precision and care were beyond my expectations. A truly premium booking experience!"</p>
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <h4>- Sheikh Mujib</h4>
+            </div>
+            
+            <div class="testimonial-card glass-card">
+                <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                <p>"Found the best deals on luxury resorts. The dark mode dashboard makes planning easy!"</p>
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <h4>- Fokhrul Islam</h4>
+            </div>
+            
+            <div class="testimonial-card glass-card">
+                <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                <p>"The 'Top Experts' recommendations tailored my trip perfectly. Absolutely stunning service."</p>
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <h4>- Sheikh Hasina</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us & Admin -->
+    <section id="contact" class="section-container reveal">
+        <div class="contact-wrapper">
+            <div class="admin-profile">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt="Admin">
+                <div>
+                    <h3>Meet the Admin</h3>
+                    <p>Hello! I have spent over 15 years traveling the world to bring you the most authentic, beautifully curated tour packages.</p>
+                    <button class="btn-outline">Connect with Me</button>
+                </div>
+            </div>
+            
+            <div class="contact-form glass-card">
+                <h3>Contact Us</h3>
+                <form>
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea rows="4" placeholder="Your Message"></textarea>
+                    <button class="btn-primary glow-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner reveal">
+        <h2 class="gradient-text">Your Next Adventure Awaits</h2>
+        <p>Join over 50,000 happy travelers exploring the world.</p>
+        <button class="btn-dark btn-large">Book Your Dream Trip Now <i class="fa-solid fa-arrow-right"></i></button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <i class="fa-solid fa-paper-plane logo-icon"></i> Traveling<span>Point</span>
+        </div>
+        <p>Thank you for exploring the world with us. Our commitment is to make your travel dreams a reality.</p>
+        <div class="footer-socials">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024, Traveling Point. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
